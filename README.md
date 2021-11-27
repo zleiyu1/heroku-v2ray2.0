@@ -1,4 +1,4 @@
-# 使用Heroku部署v2ray-Xray-Core代理服务,通过WebSocket传输,支持的VMess、VLESS、Trojan、Shadowsocks、Socks协议
+# 使用Heroku部署v2ray-Xray-Core代理服务，通过WebSocket传输，支持的VMess、VLESS、Trojan、Shadowsocks、Socks协议
 
 ## 概述
 
