@@ -32,7 +32,7 @@ vless 性能更加优秀，占用资源更少。
 
 **出于安全考量，除非使用 CDN，否则请不要使用自定义域名，而使用 Heroku 分配的二级域名，以实现 XRay vless Websocket + TLS。**
 
-<details>
+
 <summary>V2rayN(Xray、V2ray)</summary>
 
 ```bash
@@ -50,9 +50,9 @@ vless 性能更加优秀，占用资源更少。
 * 底层传输安全：tls
 * 跳过证书验证：false
 ```
-</details>
 
-<details>
+
+
 <summary>Trojan-Go</summary>
 
 ```bash
@@ -73,9 +73,9 @@ vless 性能更加优秀，占用资源更少。
     }
 }
 ```
-</details>
 
-<details>
+
+
 <summary>Shadowsocks</summary>
 
 ```bash
@@ -87,9 +87,9 @@ vless 性能更加优秀，占用资源更少。
 * 插件程序：xray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/xray-plugin/releases下载解压后放至shadowsocks同目录
 * 插件选项: tls;host=xxx.herokuapp.com;path=/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-ss
 ```
-</details>
 
-<details>
+
+
 <summary>可以使用Cloudflare的Workers来中转流量，（推荐）1配置为：</summary>
 
 ```js
@@ -114,9 +114,7 @@ addEventListener(
     }
 )
 ```
-</details>
 
-<details>
 <summary>可以使用Cloudflare的Workers来中转流量，2配置为：</summary>
 
 ```js
@@ -131,16 +129,8 @@ addEventListener(
   }
 )
 ```
-</details>
 
-## OpenWrt优选IP脚本自动更新：
-
-* [CloudflareST](https://github.com/Lbingyi/CloudflareST) `OpenWrt推荐-速度较快`
-* [cf-autoupdate](https://github.com/Lbingyi/cf-autoupdate) `OpenWrt推荐`
-
-> [更多来自热心网友PR的使用教程](/tutorial)
 
 ## 关于CF筛选IP
 
-* 请参考 [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) `推荐`
-* 请参考 [better-cloudflare-ip](https://github.com/badafans/better-cloudflare-ip)
+* 不用筛选，选择 1.1.1.1 一劳永逸
